@@ -1,0 +1,22 @@
+def bunnyEars(n: int) -> int:
+  if(n == 0):
+    result = 0
+    print (0)
+  else:
+    bunnyEars(n - 1)
+    result = n + n
+    print(result)
+
+def factorial(n: int) -> int:
+  if(n == 1):
+    return n
+  
+  return n * factorial(n - 1)
+  print(n)
+
+def fibonacci(n: int) -> int:
+  if (n <= 1):
+    return n
+
+  return(fibonacci(n - 1) + fibonacci(n - 2))
+  print(n)
